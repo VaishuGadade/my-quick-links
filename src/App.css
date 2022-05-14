@@ -1,0 +1,41 @@
+/* .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+} */
+.logo{
+  float: left;
+  width: 180px;
+  height: 31px;
+  font-size: 18px;
+  margin-left: -50px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.logo svg{
+  margin-top:8px;
+  height: 48px;
+  float: left;
+}
+
+.app-title{
+  float: left;
+  margin-top: 16px;
+  margin-left: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.user-info{
+  float: right;
+  margin-right: 24px;
+}
+.ant-layout-content{
+  padding: 15px;
+}
+
+.ant-layout, .ant-layout-header, .ant-layout-content, .ant-layout-footer{
+  background: #fff;
+}
